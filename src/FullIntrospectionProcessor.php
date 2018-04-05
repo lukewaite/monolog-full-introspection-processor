@@ -23,7 +23,7 @@ use Monolog\Logger;
  * Warning: This only works if the handler processes the logs directly.
  * If you put the processor on a handler that is behind a FingersCrossedHandler
  * for example, the processor will only be called once the trigger level is reached,
- * and all the log records will have the same file/line/.. data from the call that
+ * and all the log records will have the same trace data from the call that
  * triggered the FingersCrossedHandler.
  *
  * @author Jordi Boggiano <j.boggiano@seld.be>
