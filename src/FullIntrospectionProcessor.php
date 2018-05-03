@@ -80,6 +80,7 @@ class FullIntrospectionProcessor
         } else {
             $string .= '[internal function]: ';
         }
+
         if (isset($trace['class'])) {
             $string .= $trace['class'] . $trace['type'];
         }
